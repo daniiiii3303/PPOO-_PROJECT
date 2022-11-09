@@ -1,5 +1,6 @@
 package multimediaManager.data;
 
+import multimediaManager.Path;
 import multimediaManager.enums.Quality;
 import multimediaManager.file.File;
 import multimediaManager.models.Admin;
@@ -15,6 +16,21 @@ import java.time.LocalDate;
 import java.util.*;
 
 public class ReadData {
+    public static Set<Path> pathList() {
+        Set<Path> paths = new HashSet<>();
+        try {
+            BufferedReader b = new BufferedReader(new FileReader("C:\\Users\\Public\\Documents\\Master\\PPOO\\src\\main\\java\\multimediaManager\\Path.txt"));
+            String s;
+            while((s = b.readLine() )!= null) {
+                Path path = new Path(s.split(" ")[0]);
+                paths.add(path);
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return paths;
+    }
+
     public static Set<Admin> adminsList() {
         Set<Admin> admins = new HashSet<>();
         try {

@@ -1,7 +1,2 @@
-photo1.jpg 5 false 2022-11-01 2022-11-04 C:\Users\Public\Documents\Master\PPOO HD
-aSong.mp3 5.0 false 2022-11-06 2022-11-06 C:\Users\Public\Documents\Master\PPOO\ HD
-poza.jpg 3.5 false 2022-11-06 2022-11-06 C:\Users\Public\Documents\Master\PPOO\Admin UHD
-transparentPhoto.png 5.6 false 2022-11-06 2022-11-06 C:\Users\Public\Documents\Master\PPOO\Admin LD
-photo.png 5.0 false 2022-11-06 2022-11-06 \Admin LD
-audio.mp3 35.0 false 2022-11-06 2022-11-06 \Admin LD
-poza.jpg 6.0 false 2022-11-06 2022-11-06 C:\Users\Public\Documents\Master\PPOO\Admin LD
+audio2.wav 36.7 true 2022-11-07 2022-11-07 C:\Users\Public\Documents\Master\PPOO\Admin\audio2.wav\audio2.wav\audio2.wav LD
+mySong.wav 87.0 false 2022-11-08 2022-11-08 C:\Users\Public\Documents\Master\PPOO\Admin\\mySong.wav\mySong.wav LD

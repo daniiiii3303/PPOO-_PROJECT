@@ -95,7 +95,6 @@ public class File {
                 ", isDeteled=" + isDeleted +
                 ", createdDate=" + createdDate +
                 ", modifiedDate=" + modifiedDate +
-                ", location=" + path +
-                '}';
+                ", location=" + path;
     }
 }
